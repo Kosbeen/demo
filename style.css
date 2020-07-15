@@ -111,4 +111,52 @@ img {
     font-weight: bold;
     color: #cc9933;
 }
-
+.first-section-lux {
+    position: relative;
+    margin-left: 60px;
+    width: 45%;
+}
+.fist-section-lux-items {
+    position: absolute;
+    min-height: 540px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/img/nomer.png);
+}
+.first-section-lux-item {
+    padding-left: 30px;
+    width: 30%;
+    font-size: 66px;
+    color: #ffffff;
+}
+.first-section-lux-more {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.first-section-lux-item-two {
+    padding-left: 30px;
+    font-size: 35px;
+    color: #a49487;
+}
+.first-section-lux-line {
+    margin-left: 40px;
+    color: #ffcc66;
+}
+.first-section-lux-span {
+    padding-top: 13px;
+}
+/* Секция 2 */
+.container-info {
+    margin-top: 80px;
+}
+.info-text {
+    margin-left: 45px;
+    width: 68%;
+    font-size: 16px;
+    line-height: 36px;
+    color: #666666;
+}
+/* Секция 3 */
