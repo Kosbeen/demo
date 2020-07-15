@@ -202,12 +202,105 @@ img {
     margin-top: 70px;
 }
 .advantages-cards {
+    margin-bottom: 20px;
     width: 24%;
     min-height: 275px;
     background-color: #ffffff;
+    border-radius: 12px;
 }
 .advantages-main-block {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.advantages-img {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.advantages-cards-text {
+    margin-left: 45px;
+    margin-top: 15px;
+    width: 60%;
+    font-size: 16px;
+    line-height: 32px;
+}
+/* Секция 4 */
+.container-placement {
+    margin-top: 65px;
+}
+
+.placement-main-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.placement-block {
+    margin-bottom: 25px;
+    margin-top: 35px;
+    min-height: 440px;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.placement-star-container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.placement-from-span {
+    font-size: 16px;
+    color: #969696;
+}
+.placement-price-span {
+    margin-left: 5px;
+    font-size: 22px;
+}
+.placement-stars {
+    margin-left: 60px;
+    padding-top: 5px;
+}
+.placement-list-item-name {
+    margin-left: 45px;
+    margin-top: 25px;
+    font-size: 16px;
+    color: #5d5d5d;
+}
+.placement-list-item-country {
+    margin-left: 45px;
+    margin-top: 20px;
+    color: #c6c6c6;
+}
+.placement-btn  {
+    margin-top: 25px;
+    margin-left: 45px;
+    width: 100px;
+    height: 40px;
+    color: #d1a449;
+    border: 2px solid #d1a449;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+.placement-link {
+    color: #d1a449;    
+}
+
+.placement-block9 {
+    position: relative;
+    background-image: url(/img/variants/41.jpg);
+}
+.placement-variants-block {
+    position: absolute;
+    left: 40px;
+    bottom: 55px;
+    display: flex;
+   justify-content: center;
+}
+.placement-variants-text-link {
+    font-size: 24px;
+    color: #ffffff;
+}
+.placement-variants-img {
+    margin-left: 10px;
 }
