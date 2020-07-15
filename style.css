@@ -1,8 +1,114 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container-header {
-    font-size: 100px;
+body {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
 }
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.title {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.header-logo-tel {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.tel {
+    margin-left: 25px;
+    margin-right: auto;
+}
+.header-list-input{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    min-height: 70px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+.header-nav {
+    display: flex;
+   
+}
+.header-list {
+    display: flex;
+}
+.header-list-item {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+.input-search {
+   margin-left: 120px;
+}
+.header-list-item-link {
+    font-size: 16px;
+    color: black;
+}
+/* секция 1 */
+.container-first-section {
+    display: flex;
+    margin-top: 70px;
+}
+.first-section-fast {
+    width: 50%;
+}
+.first-section-fast-title {
+    margin-left: ;
+}
+.first-section-fast-list {
+    display: flex;
+    flex-direction: column;
+}
+.first-section-fast-list-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+.first-section-fast-list-item {
+    padding-top: 30px;
+    min-height: 75px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    background-color: #ffffff;   
+}
+.first-section-fast-link {
+    padding-left: 25px;
+    font-size: 16px;
+    color: #d6d6d6;
+}
+.first-section-btn-text {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.first-section-btn {
+    width: 160px;
+    height: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    border: 1px solid #cc9933;
+    border-radius: 12px;
+    background-color: #cc9933;
+}
+.first-section-fast-offer {
+    margin-left: 30px;
+    color: #cecece;
+}
+.first-section-fast-span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #cc9933;
+}
+
